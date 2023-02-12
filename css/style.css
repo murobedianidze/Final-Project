@@ -1,21 +1,31 @@
-.container{
+.container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 100px;
 }
+
 /* header */
-header{
-    width: 100%;
+header {
+    /* width: 100%; */
+    max-width: inherit;
+     width: inherit;
     background-color: #9EAEC5;
     padding: 0 100px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header_logo{
+.header_logo {
     font-family: 'Rubik';
     color: #F6F5F2;
     font-size: 2.25rem;
+    font-weight: 700;
     background-color: hwb(53 56% 25%);
     width: 196px;
     height: 100px;
@@ -23,22 +33,84 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 2s;
 }
-.header_logo:hover{
-    font-size: 3rem;
+
+.header_logo:hover {
+    font-size: 2.80rem;
 }
-ul{
+
+ul {
     display: flex;
     gap: 47px;
 }
-.active{
+li a{
+    font-size: 1.5rem;
+    color: #E3F6F6;
+    font-weight: 700;
+}
+.active {
     color: #623932;
     border-bottom: 2px solid #623932;
 }
-.noactive{
+
+.noactive {
     color: #ffff;
 }
-.fa-cart-shopping{
-    font-size: 45px;
+
+.fa-cart-shopping {
+    font-size: 1.5rem;
     color: #ffff;
+}
+
+/* section */
+section {
+    width: 100%;
+    height: 678px;
+    position: relative;
+    background-image: url(../image/section.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section_text{
+    width: 90%;
+    font-family: 'Rubik';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin: 281px 126px; */
+    color: #ffffff;
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+}
+/* footer */
+footer{
+    width: 100%;
+    padding: 77px 100px;
+    background-color: #C0BA8F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_text{
+    font-size: 1.25rem;
+    color: #DDDBCB;
+    font-weight: 300;
+    font-family: 'Inter';
+
+}
+.footer_logo{
+    font-size: 36px;
+    color: #F6F5F2;
+}
+.footer_icons{
+    display: flex;
+    gap: 47px;
+}
+.fa-facebook-messenger,.fa-instagram,.fa-youtube{
+    font-size: 2.5rem;
+    color: #ffffff;
 }
