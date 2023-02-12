@@ -9,7 +9,7 @@
 header {
     /* width: 100%; */
     max-width: inherit;
-     width: inherit;
+    width: inherit;
     background-color: #9EAEC5;
     padding: 0 100px;
     position: fixed;
@@ -21,6 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .header_logo {
     font-family: 'Rubik';
     color: #F6F5F2;
@@ -44,11 +45,13 @@ ul {
     display: flex;
     gap: 47px;
 }
-li a{
+
+li a {
     font-size: 1.5rem;
     color: #E3F6F6;
     font-weight: 700;
 }
+
 .active {
     color: #623932;
     border-bottom: 2px solid #623932;
@@ -64,7 +67,7 @@ li a{
 }
 
 /* section */
-section {
+.section1 {
     width: 100%;
     height: 678px;
     position: relative;
@@ -73,21 +76,120 @@ section {
     background-position: center;
     background-size: cover;
 }
-.section_text{
+
+.section_text {
     width: 90%;
     font-family: 'Rubik';
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     /* margin: 281px 126px; */
     color: #ffffff;
     font-size: 6rem;
     font-weight: 700;
     text-align: center;
 }
+
+/* section2 */
+/* .section2{
+    width: 100%;
+    height: 678px;
+    position: relative;
+    background-image: url(../image/section.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+.section1_div {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #623932;
+    padding: 35px 38px 28px 34px;
+}
+
+.section1_title {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 41px;
+}
+
+.section1_text {
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* article */
+article {
+    width: 100%;
+    background-color: #6A7B98;
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+
+.article_title {
+    margin-bottom: 150px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.card {
+    width: 28%;
+    padding: 33px 28px 30px 28px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 40px 40px 30px black;
+    cursor: pointer;
+    transition-duration: 2.5s;
+}
+
+.card_img {
+    width: 90%;
+    margin-bottom: 56px;
+}
+
+.card_img:hover {
+    /* transform: scale(1.5); */
+    transition-duration: 2s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+.card_text {
+    color: #82625D;
+    font-size: 2rem;
+    font-family: 'Inter';
+}
+
 /* footer */
-footer{
+footer {
     width: 100%;
     padding: 77px 100px;
     background-color: #C0BA8F;
@@ -95,22 +197,41 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.footer_text{
+
+.footer_text {
     font-size: 1.25rem;
     color: #DDDBCB;
     font-weight: 300;
-    font-family: 'Inter';
-
 }
-.footer_logo{
+
+.footer_logo {
     font-size: 36px;
     color: #F6F5F2;
 }
-.footer_icons{
+
+.footer_icons {
     display: flex;
     gap: 47px;
 }
-.fa-facebook-messenger,.fa-instagram,.fa-youtube{
-    font-size: 2.5rem;
+
+.fa-facebook-messenger,
+.fa-instagram,
+.fa-youtube {
+    font-size: 2rem;
     color: #ffffff;
+}
+
+.fa-facebook-messenger:hover {
+    font-size: 2.25rem;
+    color: aqua;
+}
+
+.fa-instagram:hover {
+    font-size: 2.25rem;
+    color: rgb(169, 121, 215);
+}
+
+.fa-youtube:hover {
+    font-size: 2.25rem;
+    color: red;
 }
