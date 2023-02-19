@@ -1,0 +1,83 @@
+@media(max-width:480px) {
+    .container{
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    header{
+        height: 60px;
+    }
+    .header_logo{
+        width: 120px;
+        height: 60px;
+        font-size: 1.25rem;
+    }
+    nav {
+        display: none;
+    }
+    .fa-cart-shopping {
+        display: none;
+    }
+    .fa-burger {
+        display: block;
+    }
+    /* section */
+    .section1 {
+        height: 290px;
+    }
+    .section_text {
+        font-size: 1.5rem;
+    }
+    /* sectiondiv */
+    .section1_div {
+        padding: 7px 14px 18px 15px;
+        width: 97%;
+        height: 253px;
+    }
+    .section1_title{
+        font-size: 1rem;
+        margin-bottom: 16px;
+    }
+    .section1_text{
+        font-size: 1.185rem;
+    }
+    article{
+        /* height: 1307px; */
+        padding: 28px 0 68px 0;
+    }
+    .article_title{
+        margin-bottom: 42px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+    .card{
+        width: 97%;
+        margin: 0 auto;
+        padding: 18px 18px 22px 18px;
+    }
+    .card:nth-child(6){
+        display: none;
+    }
+    /* section2 */
+    
+    /* footer */
+    footer {
+        padding: 30px 100px;
+        height: 100px;
+    }
+    .footer_logo {
+        display: none;
+    }
+    .footer_icons{
+        gap: 55px;
+    }
+    .fa-facebook-messenger,
+    .fa-instagram,
+    .fa-youtube{
+        font-size: 2.5rem;
+    }
+}

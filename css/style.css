@@ -60,6 +60,11 @@ li a:hover{
     font-size: 1.5rem;
     color: #ffff;
 }
+.fa-burger{
+    display: none;
+    color: white;
+    font-size: 3.5rem;
+}
 /* section1 */
 .section1 {
     width: 100%;
@@ -213,7 +218,6 @@ article {
     font-size: 3.125rem;
     color: red;
 }
-
 .phone_title,
 .Email_title,
 .location_title {
@@ -265,8 +269,6 @@ form{
     width: 487px;
     height: 147px;
     resize: none;
-}
-textarea{
     background-color: transparent;
     border: 3px solid white;
 }
