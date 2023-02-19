@@ -4,7 +4,6 @@
     margin: 0 auto;
     padding-top: 90px;
 }
-
 /* header */
 header {
     /* width: 100%; */
@@ -35,24 +34,24 @@ header {
     align-items: center;
     transition-duration: 2s;
 }
-
 .header_logo:hover {
     font-size: 2.80rem;
 }
-
 ul {
     display: flex;
     gap: 47px;
 }
-
 li a {
     font-size: 1.5rem;
     color: #E3F6F6;
     font-weight: 700;
 }
+li a:hover{
+    border-bottom: 2px solid #623932;
+}
 .active {
     color: #623932;
-    border-bottom: 2px solid #623932;
+    /* border-bottom: 2px solid #623932; */
 }
 .noactive {
     color: #ffff;
@@ -179,7 +178,6 @@ article {
     padding: 90px 0 84px 0;
     background-color: #6A7B98;
 }
-
 .div_box {
     width: 90%;
     height: 500px;
@@ -190,7 +188,6 @@ article {
     display: flex;
     justify-content: space-between;
 }
-
 .First_div {
     width: 35%;
     /* padding: 31px 65px 36px 65px; */
@@ -203,6 +200,7 @@ article {
 .Email_div,
 .Location_div {
     width: 100%;
+    /* height: 100%; */
     padding: 32px 0 35px 0;
     display: flex;
     align-items: center;
@@ -302,12 +300,10 @@ footer {
     color: #DDDBCB;
     font-weight: 300;
 }
-
 .footer_logo {
     font-size: 36px;
     color: #F6F5F2;
 }
-
 .footer_icons {
     display: flex;
     gap: 47px;
@@ -318,17 +314,14 @@ footer {
     font-size: 2rem;
     color: #ffffff;
 }
-
 .fa-facebook-messenger:hover {
     font-size: 2.25rem;
     color: aqua;
 }
-
 .fa-instagram:hover {
     font-size: 2.25rem;
     color: rgb(169, 121, 215);
 }
-
 .fa-youtube:hover {
     font-size: 2.25rem;
     color: red;
