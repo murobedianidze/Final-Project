@@ -84,11 +84,6 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .Phone_div,
-    .Email_div,
-    .Location_div{
-        /* display: flex; */
-    }
     .Email_div{
         margin: 0;
     }
