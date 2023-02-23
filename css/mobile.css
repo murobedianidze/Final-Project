@@ -11,6 +11,7 @@
     .header_logo{
         width: 120px;
         height: 60px;
+        padding: 18px 14px 18px 13px;
         font-size: 1.25rem;
     }
     nav {
@@ -32,19 +33,20 @@
     /* sectiondiv */
     .section1_div {
         padding: 7px 14px 18px 15px;
-        width: 97%;
+        width: 98%;
         height: 253px;
     }
     .section1_title{
-        font-size: 1rem;
+        font-size: 1.0625rem;
         margin-bottom: 16px;
     }
     .section1_text{
-        font-size: 1.185rem;
+        width: 98%;
+        font-size: 1.2rem;
     }
     article{
         /* height: 1307px; */
-        padding: 28px 0 68px 0;
+        padding: 28px 21px 68px 21px;
     }
     .article_title{
         margin-bottom: 42px;
@@ -52,18 +54,82 @@
     .cards{
         display: flex;
         flex-direction: column;
-        gap: 42px;
+        /* gap: 42px; */
     }
     .card{
         width: 97%;
         margin: 0 auto;
         padding: 18px 18px 22px 18px;
     }
+    .card_text{
+        font-size: 1.5rem;
+        margin-top: 42px;
+    }
     .card:nth-child(6){
         display: none;
     }
     /* section2 */
-    
+    .section2{
+        padding: 40px 14px 40px 14px;
+    }
+    .div_box{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+    .First_div{
+        width: 100%;
+        display: flex;
+        padding: 20px 40px 24px 40px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Phone_div,
+    .Email_div,
+    .Location_div{
+        /* display: flex; */
+    }
+    .Email_div{
+        margin: 0;
+    }
+    .phone_div,.email_div,.location_div{
+        display: none;
+    }
+    .icons{
+        font-size: 2.5rem;
+    }
+    form{
+        width: 100%;
+        margin-top: 86px;
+        padding: 0px 40px 38px 40px;
+    }
+    .First_line{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 5%;
+        row-gap: 18px;
+    }
+    .form_div{
+       width: 100%;
+       flex-direction: column;
+       margin-bottom: 1%;
+    }
+    #Name,#Email{
+        margin-top: 1%;
+    }
+    textarea{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 1.25rem;
+    }
+    button{
+        width: 100%;
+        height: 78px;
+        font-size: 2.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* footer */
     footer {
         padding: 30px 100px;
