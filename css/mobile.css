@@ -9,6 +9,13 @@
     .form_label{
         font-size: 1rem;
     }
+    button{
+        width: 75%;
+        font-size: 1.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media(max-width:480px) {
     .container{
