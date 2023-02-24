@@ -1,4 +1,15 @@
 
+@media(max-width:585px){
+    .info_text{
+        font-size: 0.75rem;
+    }
+    .info_title{
+        font-size: 0.75rem;
+    }
+    .form_label{
+        font-size: 1rem;
+    }
+}
 @media(max-width:480px) {
     .container{
         padding-top: 50px;
