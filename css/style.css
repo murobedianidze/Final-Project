@@ -37,11 +37,11 @@ header {
 .header_logo:hover {
     font-size: 2.80rem;
 }
-ul {
+.navigation_ul{
     display: flex;
     gap: 47px;
 }
-li a {
+.navigation_li{
     font-size: 1.5rem;
     color: #E3F6F6;
     font-weight: 700;
@@ -64,6 +64,10 @@ li a:hover{
     display: none;
     color: white;
     font-size: 3rem;
+}
+.fa-xmark{
+    display: none;
+    color: #FFFFFF;
 }
 /* section1 */
 .section1 {

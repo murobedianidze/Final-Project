@@ -60,7 +60,9 @@
         font-size: 1.25rem;
         padding-right: 4px;
     }
-
+    .fa-bars{
+        display: none;
+    }
     /* section */
     .section1 {
         height: 450px;

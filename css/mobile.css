@@ -23,6 +23,7 @@
     }
     header{
         height: 60px;
+        padding: 0 15px 0 0;
     }
     .header_logo{
         width: 120px;
@@ -30,14 +31,30 @@
         padding: 18px 14px 18px 13px;
         font-size: 1.25rem;
     }
-    nav {
-        display: none;
+    .navigation_ul{
+        width: 35%;
+        position: fixed;
+        top: 60px;
+        /* height: 70px; */
+        background-color: rgb(162, 155, 155);
+        left: -101%;
+        transform: translateX(-50%);
+        flex-direction: column;
+        gap: 0;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .navigation_li{
+        font-size: .7rem;
     }
     .fa-cart-shopping {
         display: none;
     }
     .fa-bars {
         display: block;
+    }
+    .show{
+        left: 90%;
     }
     /* section */
     .section1 {
