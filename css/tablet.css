@@ -1,3 +1,41 @@
+@media (max-width:830px){
+    header{
+        padding: 0;
+    }
+    .section1{
+        height: 450px;
+    }
+    .section1_div{
+        padding: 14px 15px 9px 15px;
+    }
+    .section1_title{
+        font-size: 1.25rem;
+        margin-bottom: 17px;
+    }
+    .section1_text{
+        font-size: 1.25rem;
+    }
+    article{
+        padding: 46px 0 46px 0;
+    }
+    .card{
+        width: 40%;
+        padding: 22px 18px 12px 18px;
+    }
+    .section2{
+        padding: 40px 0 40px 0;
+    }
+    .info_title{
+        font-size: 1rem;
+    }
+    .info_text{
+        font-size: 1rem;
+    }
+    .form_label{
+        font-size: 1.25rem;
+    }
+}
+
 @media (max-width:780px) {
 
     /* header */
