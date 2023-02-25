@@ -10,7 +10,9 @@
     }
 }
 @media (max-width:972px){
-
+.card{
+    width: 40%;
+    padding: 22px 18px 12px 18px;}
 }
 @media (max-width:830px){
     header{
