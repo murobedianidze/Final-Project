@@ -9,6 +9,9 @@
         gap: 21px;
     }
 }
+@media (max-width:972px){
+
+}
 @media (max-width:830px){
     header{
         padding: 0;
@@ -140,10 +143,6 @@
     .Location_div{
         display: flex;
         gap: 22px;
-    }
-    .Email_div{
-        margin-top: 97px;
-        margin-bottom: 97px;
     }
     .icons{
         font-size: 2rem;

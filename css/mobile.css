@@ -117,9 +117,6 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .Email_div{
-        margin: 0;
-    }
     .phone_div,.email_div,.location_div{
         display: none;
     }
@@ -128,7 +125,7 @@
     }
     form{
         width: 100%;
-        margin-top: 86px;
+        margin-top: 60px;
         padding: 0px 40px 38px 40px;
     }
     .First_line{
